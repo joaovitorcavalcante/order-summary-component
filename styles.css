@@ -39,7 +39,8 @@ body {
 
   background-color: var(--body-bg);
   background-image: url("./assets/images/pattern-background-mobile.svg");
-  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
 }
 
 .card {
@@ -163,8 +164,6 @@ body {
 @media (min-width: 768px) {
   body {
     background-image: url("./assets/images/pattern-background-desktop.svg");
-    background-position: center;
-    background-size: cover;
   }
 
   .card {
